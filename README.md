@@ -1,8 +1,26 @@
-# CSV Quality Checker - Claude 
+# 📊 CSV Quality Checker - Claude 
 
 An intelligent CSV quality checking and validation system I made powered by Claude with effective use of skill and subagent. This tool automatically detects data quality issues and generates an interactive visual dashboard so that anyone can follow the visual dashboard to fix the data in CSV files at ease.
+<br>
 
 <img src="images/dashboard-screenshot.png" alt="Dashboard" width="600">
+<br>
+I have also included sales_messy.csv file in this repository, which is a very simple sample CSV file that can be used to test the skill and subagent for CSV data quality check and data cleaning:
+
+## 📑 Table of Contents
+
+- [✨ Features](#features)
+- [⚙️ Usage](#usage)
+- [📊 Dashboard Components](#dashboard-components)
+- [Quality Checks in Detail](#quality-checks-in-detail)
+- [📁 File Structure](#file-structure)
+- [🎯 Why Skill + Subagent Architecture?](#why-skill--subagent-architecture)
+- [Benefits of Subagent Integration](#benefits-of-subagent-integration)
+- [Real-World Example](#real-world-example)
+- [Integration with Subagents](#integration-with-subagents)
+- [Example Output](#example-output)
+- [Dashboard Screenshots & Visual Example](#dashboard-screenshots--visual-example)
+- [Next Steps](#next-steps)
 
 ## Features
 
@@ -19,7 +37,7 @@ The CSV Quality Checker validates your data against multiple criteria:
 ### 📊 Interactive HTML Dashboard
 
 <img src="images/dashboard-screenshot2.png" alt="Dashboard" width="600">
-
+<br>
 Generates a beautiful, interactive dashboard with:
 
 1. **Summary Statistics**
